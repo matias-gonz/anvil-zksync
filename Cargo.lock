@@ -117,7 +117,7 @@ dependencies = [
  "secp256k1 0.30.0",
  "serde",
  "serde_with 3.14.0",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
 ]
 
 [[package]]
@@ -173,7 +173,7 @@ dependencies = [
  "alloy-rlp",
  "crc",
  "serde",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
 ]
 
 [[package]]
@@ -196,7 +196,7 @@ dependencies = [
  "alloy-primitives",
  "alloy-rlp",
  "serde",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
 ]
 
 [[package]]
@@ -242,7 +242,7 @@ dependencies = [
  "http 1.3.1",
  "serde",
  "serde_json",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tracing",
 ]
 
@@ -269,7 +269,7 @@ dependencies = [
  "futures-utils-wasm",
  "serde",
  "serde_json",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
 ]
 
 [[package]]
@@ -342,10 +342,10 @@ dependencies = [
  "lru",
  "parking_lot",
  "pin-project 1.1.10",
- "reqwest 0.12.22",
+ "reqwest 0.12.23",
  "serde",
  "serde_json",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tokio",
  "tracing",
  "url",
@@ -371,7 +371,7 @@ checksum = "64b728d511962dda67c1bc7ea7c03736ec275ed2cf4c35d9585298ac9ccf3b73"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -386,7 +386,7 @@ dependencies = [
  "alloy-transport-http",
  "futures 0.3.31",
  "pin-project 1.1.10",
- "reqwest 0.12.22",
+ "reqwest 0.12.23",
  "serde",
  "serde_json",
  "tokio",
@@ -469,7 +469,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_with 3.14.0",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
 ]
 
 [[package]]
@@ -497,7 +497,7 @@ dependencies = [
  "either",
  "elliptic-curve 0.13.8",
  "k256 0.13.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
 ]
 
 [[package]]
@@ -514,7 +514,7 @@ dependencies = [
  "aws-sdk-kms",
  "k256 0.13.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "spki 0.7.3",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tracing",
 ]
 
@@ -532,7 +532,7 @@ dependencies = [
  "gcloud-sdk",
  "k256 0.13.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "spki 0.7.3",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tracing",
 ]
 
@@ -552,7 +552,7 @@ dependencies = [
  "coins-ledger",
  "futures-util",
  "semver 1.0.26",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tracing",
 ]
 
@@ -571,7 +571,7 @@ dependencies = [
  "coins-bip39",
  "k256 0.13.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "rand 0.8.5",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
 ]
 
 [[package]]
@@ -585,7 +585,7 @@ dependencies = [
  "proc-macro-error2",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -602,7 +602,7 @@ dependencies = [
  "proc-macro-error2",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
  "syn-solidity",
  "tiny-keccak 2.0.2",
 ]
@@ -621,7 +621,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "serde_json",
- "syn 2.0.104",
+ "syn 2.0.105",
  "syn-solidity",
 ]
 
@@ -663,7 +663,7 @@ dependencies = [
  "parking_lot",
  "serde",
  "serde_json",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tokio",
  "tower 0.5.2",
  "tracing",
@@ -679,7 +679,7 @@ checksum = "78e3736701b5433afd06eecff08f0688a71a10e0e1352e0bbf0bed72f0dd4e35"
 dependencies = [
  "alloy-json-rpc",
  "alloy-transport",
- "reqwest 0.12.22",
+ "reqwest 0.12.23",
  "serde_json",
  "tower 0.5.2",
  "tracing",
@@ -712,7 +712,7 @@ dependencies = [
  "darling 0.20.11",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -867,7 +867,7 @@ dependencies = [
  "colored",
  "eyre",
  "once_cell",
- "reqwest 0.12.22",
+ "reqwest 0.12.23",
  "rustc-hash 1.1.0",
  "serde",
  "serde_json",
@@ -1028,9 +1028,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.98"
+version = "1.0.99"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e16d2d3311acee920a9eb8d33b8cbc1787ce4a264e85f964c2404b969bdcd487"
+checksum = "b0674a1ddeecb70197781e945de4b3b8ffb61fa939a5597bcf48503737663100"
 
 [[package]]
 name = "ark-bls12-381"
@@ -1161,7 +1161,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "62945a2f7e6de02a31fe400aa489f0e0f5b2502e69f95f853adb82a96c7a6b60"
 dependencies = [
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -1199,7 +1199,7 @@ dependencies = [
  "num-traits",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -1259,7 +1259,7 @@ checksum = "213888f660fddcca0d257e88e54ac05bca01885f258ccdf695bafd77031bb69d"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -1345,7 +1345,7 @@ checksum = "c7c24de15d275a1ecfd47a380fb4d5ec9bfe0933f309ed5e705b775596a3574d"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -1356,7 +1356,7 @@ checksum = "e539d3fca749fcee5236ab05e93a52867dd549cc157c8cb7f99595f3cedffdb5"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -1373,7 +1373,7 @@ checksum = "ffdcb70bdbc4d478427380519163274ac86e52916e10f0a8889adf0f96d3fee7"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -1443,9 +1443,9 @@ dependencies = [
 
 [[package]]
 name = "aws-sdk-kms"
-version = "1.82.0"
+version = "1.83.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5296e1ff23bcb95f58a8250e2d00525daf23888ed2021c05bdfdbf79e1531784"
+checksum = "51e4bd98d45d4bd2e9b8778d0d99cd64e62367bbbb19516248edd9613574436c"
 dependencies = [
  "aws-credential-types",
  "aws-runtime",
@@ -1805,7 +1805,7 @@ dependencies = [
  "regex",
  "rustc-hash 1.1.0",
  "shlex",
- "syn 2.0.104",
+ "syn 2.0.105",
  "which",
 ]
 
@@ -2115,7 +2115,7 @@ dependencies = [
 [[package]]
 name = "circuit_sequencer_api"
 version = "0.152.3"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-152#2a6aedbf48a0b137bb82a682fdbca22bce5df7ab"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-152#0a0f9f7788f5b5f151077dc9cc8687f3747fa7e4"
 dependencies = [
  "derivative",
  "rayon",
@@ -2137,9 +2137,9 @@ dependencies = [
 
 [[package]]
 name = "clap"
-version = "4.5.43"
+version = "4.5.45"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "50fd97c9dc2399518aa331917ac6f274280ec5eb34e555dd291899745c48ec6f"
+checksum = "1fc0e74a703892159f5ae7d3aac52c8e6c392f5ae5f359c70b5881d60aaac318"
 dependencies = [
  "clap_builder",
  "clap_derive",
@@ -2147,9 +2147,9 @@ dependencies = [
 
 [[package]]
 name = "clap_builder"
-version = "4.5.43"
+version = "4.5.44"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c35b5830294e1fa0462034af85cc95225a4cb07092c088c55bda3147cfcd8f65"
+checksum = "b3e7f4214277f3c7aa526a59dd3fbe306a370daee1f8b7b8c987069cd8e888a8"
 dependencies = [
  "anstream",
  "anstyle",
@@ -2159,14 +2159,14 @@ dependencies = [
 
 [[package]]
 name = "clap_derive"
-version = "4.5.41"
+version = "4.5.45"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ef4f52386a59ca4c860f7393bcf8abd8dfd91ecccc0f774635ff68e92eeef491"
+checksum = "14cb31bb0a7d536caef2639baa7fad459e15c3144efefa6dbd1c84562c4739f6"
 dependencies = [
  "heck",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -2603,7 +2603,7 @@ dependencies = [
  "serde_json",
  "smallvec",
  "super-seq-macro",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -2613,7 +2613,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32a2785755761f3ddc1492979ce1e48d2c00d09311c39e4466429188f3dd6501"
 dependencies = [
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -2666,7 +2666,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "strsim 0.11.1",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -2688,7 +2688,7 @@ checksum = "fc34b93ccb385b40dc71c6fceac4b2ad23662c7eeb248cf10d529b7e055b6ead"
 dependencies = [
  "darling_core 0.20.11",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -2775,7 +2775,7 @@ dependencies = [
  "darling 0.20.11",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -2785,7 +2785,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ab63b0e2bf4d5928aff72e83a7dace85d7bba5fe12dcc3c5a572d78caffd3f3c"
 dependencies = [
  "derive_builder_core",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -2796,7 +2796,7 @@ checksum = "6edb4b64a43d977b8e99788fe3a04d483834fba1215a7e02caa415b626497f7f"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -2826,7 +2826,7 @@ dependencies = [
  "convert_case",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
  "unicode-xid",
 ]
 
@@ -2838,7 +2838,7 @@ checksum = "bda628edc44c4bb645fbe0f758797143e4e07926f7ebf4e9bdfbd3d2ce621df3"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
  "unicode-xid",
 ]
 
@@ -2904,7 +2904,7 @@ checksum = "97369cbbc041bc366949bc74d34658d6cda5621039731c6310521892a3a20ae0"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -2967,7 +2967,7 @@ dependencies = [
  "enum-ordinalize",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -3061,7 +3061,7 @@ checksum = "0d28318a75d4aead5c4db25382e8ef717932d0346600cacae6357eb5941bc5ff"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -3073,7 +3073,7 @@ dependencies = [
  "once_cell",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -3453,7 +3453,7 @@ checksum = "162ee34ebcb7c64a8abebc059ce0fee27c2262618d7b60ed8faf72fef13c3650"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -3518,7 +3518,7 @@ dependencies = [
  "once_cell",
  "prost 0.13.5",
  "prost-types 0.13.5",
- "reqwest 0.12.22",
+ "reqwest 0.12.23",
  "secret-vault-value",
  "serde",
  "serde_json",
@@ -3587,9 +3587,9 @@ checksum = "07e28edb80900c19c28f1072f2e8aeca7fa06b23cd4169cefe1af5aa3260783f"
 
 [[package]]
 name = "glob"
-version = "0.3.2"
+version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a8d1add55171497b4705a648c6b583acafb01d58050a51727785f0b2c8e0a2b2"
+checksum = "0cc23270f6e1808e30a928bdc84dea0b9b4136a8bc82338574f23baf47bbd280"
 
 [[package]]
 name = "globset"
@@ -4221,7 +4221,7 @@ checksum = "a0eb5a3343abf848c0984fe4604b2b105da9539376e24fc0a3b0007411ae4fd9"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -4537,7 +4537,7 @@ dependencies = [
  "proc-macro-crate 3.3.0",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -4621,7 +4621,7 @@ dependencies = [
 [[package]]
 name = "k256"
 version = "0.11.0"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.11.0#c94ee15c610488d5a739310a129de60292069e24"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.11.0#c94ee15c610488d5a739310a129de60292069e24"
 dependencies = [
  "cfg-if",
  "ecdsa 0.14.8",
@@ -4659,7 +4659,7 @@ dependencies = [
 [[package]]
 name = "k256"
 version = "0.13.4"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#fa00aa2d2d71c14322464b4898124cc3904fdeff"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#fa00aa2d2d71c14322464b4898124cc3904fdeff"
 dependencies = [
  "cfg-if",
  "ecdsa 0.16.9",
@@ -4672,7 +4672,7 @@ dependencies = [
 [[package]]
 name = "k256"
 version = "0.13.4"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4#358813369c6f4792c1150b884a21e673eb6749c0"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4#358813369c6f4792c1150b884a21e673eb6749c0"
 dependencies = [
  "cfg-if",
  "ecdsa 0.16.9",
@@ -4732,9 +4732,9 @@ source = "git+https://github.com/shamatar/lib-rv32.git#d516e9d8359d8b2954d87b75a
 
 [[package]]
 name = "libc"
-version = "0.2.174"
+version = "0.2.175"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1171693293099992e19cddea4e8b849964e9846f4acee11b3948bcc337be8776"
+checksum = "6a82ae493e598baaea5209805c49bbf2ea7de956d50d7da0da1164f9c6d28543"
 
 [[package]]
 name = "libloading"
@@ -4844,7 +4844,7 @@ checksum = "1b27834086c65ec3f9387b096d66e99f221cf081c2b738042aa252bcd41204e3"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5105,7 +5105,7 @@ dependencies = [
  "proc-macro-crate 1.3.1",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5117,7 +5117,7 @@ dependencies = [
  "proc-macro-crate 3.3.0",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5137,9 +5137,9 @@ checksum = "830b246a0e5f20af87141b25c173cd1b609bd7779a4617d6ec582abaf90870f3"
 
 [[package]]
 name = "nybbles"
-version = "0.4.1"
+version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "675b3a54e5b12af997abc8b6638b0aee51a28caedab70d4967e0d5db3a3f1d06"
+checksum = "2ff79de40513a478a9e374a480f897c2df829d48dcc64a83e4792a57fe231c64"
 dependencies = [
  "alloy-rlp",
  "cfg-if",
@@ -5171,9 +5171,9 @@ dependencies = [
 
 [[package]]
 name = "object"
-version = "0.37.2"
+version = "0.37.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b3e3d0a7419f081f4a808147e845310313a39f322d7ae1f996b7f001d6cbed04"
+checksum = "ff76201f031d8863c38aa7f905eca4f53abbfa15f609db4277d44cd8938f33fe"
 dependencies = [
  "flate2",
  "memchr",
@@ -5255,22 +5255,22 @@ dependencies = [
 [[package]]
 name = "p256"
 version = "0.13.2"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#fa00aa2d2d71c14322464b4898124cc3904fdeff"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#fa00aa2d2d71c14322464b4898124cc3904fdeff"
 dependencies = [
  "ecdsa 0.16.9",
  "elliptic-curve 0.13.8",
- "primeorder 0.13.6 (git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep)",
+ "primeorder 0.13.6 (git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep)",
  "sha2",
 ]
 
 [[package]]
 name = "p256"
 version = "0.13.2"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4#358813369c6f4792c1150b884a21e673eb6749c0"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4#358813369c6f4792c1150b884a21e673eb6749c0"
 dependencies = [
  "ecdsa 0.16.9",
  "elliptic-curve 0.13.8",
- "primeorder 0.13.6 (git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4)",
+ "primeorder 0.13.6 (git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4)",
  "sha2",
 ]
 
@@ -5310,7 +5310,7 @@ dependencies = [
  "proc-macro-crate 3.3.0",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5393,7 +5393,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1db05f56d34358a8b1066f67cbb203ee3e7ed2ba674a6263a1d5ec6db2204323"
 dependencies = [
  "memchr",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "ucd-trie",
 ]
 
@@ -5417,7 +5417,7 @@ dependencies = [
  "pest_meta",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5505,7 +5505,7 @@ checksum = "6e918e4ff8c4549eb882f14b3a4bc8c8bc93de829416eacf579f1207a8fbf861"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5632,7 +5632,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ff24dfcda44452b9816fff4cd4227e1bb73ff5a2f1bc1105aa92fb8565ce44d2"
 dependencies = [
  "proc-macro2",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5647,7 +5647,7 @@ dependencies = [
 [[package]]
 name = "primeorder"
 version = "0.13.6"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#fa00aa2d2d71c14322464b4898124cc3904fdeff"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep#fa00aa2d2d71c14322464b4898124cc3904fdeff"
 dependencies = [
  "elliptic-curve 0.13.8",
 ]
@@ -5655,7 +5655,7 @@ dependencies = [
 [[package]]
 name = "primeorder"
 version = "0.13.6"
-source = "git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4#358813369c6f4792c1150b884a21e673eb6749c0"
+source = "git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4#358813369c6f4792c1150b884a21e673eb6749c0"
 dependencies = [
  "elliptic-curve 0.13.8",
 ]
@@ -5711,14 +5711,14 @@ dependencies = [
  "proc-macro-error-attr2",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.95"
+version = "1.0.97"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "02b3e5e68a3a1a02aad3ec490a98007cbc13c37cbe84a3cd7b8e406d76e7f778"
+checksum = "d61789d7719defeb74ea5fe81f2fdfdbd28a803847077cecce2ff14e1472f6f1"
 dependencies = [
  "unicode-ident",
 ]
@@ -5743,7 +5743,7 @@ checksum = "440f724eba9f6996b75d63681b0a92b06947f1457076d503a4d2e2c8f56442b8"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5796,7 +5796,7 @@ dependencies = [
  "itertools 0.14.0",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5809,7 +5809,7 @@ dependencies = [
  "itertools 0.14.0",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -5851,7 +5851,7 @@ dependencies = [
  "seq-macro",
  "serde",
  "serde_json",
- "syn 2.0.104",
+ "syn 2.0.105",
  "trace_holder",
  "transcript",
  "unroll",
@@ -5912,7 +5912,7 @@ dependencies = [
  "rustc-hash 2.1.1",
  "rustls 0.23.31",
  "socket2 0.5.10",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tokio",
  "tracing",
  "web-time",
@@ -5933,7 +5933,7 @@ dependencies = [
  "rustls 0.23.31",
  "rustls-pki-types",
  "slab",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tinyvec",
  "tracing",
  "web-time",
@@ -6075,9 +6075,9 @@ dependencies = [
 
 [[package]]
 name = "rayon"
-version = "1.10.0"
+version = "1.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b418a60154510ca1a002a752ca9714984e21e4241e804d32555251faf8b78ffa"
+checksum = "368f01d005bf8fd9b1206fb6fa653e6c4a81ceb1466406b81792d87c5677a58f"
 dependencies = [
  "either",
  "rayon-core",
@@ -6085,9 +6085,9 @@ dependencies = [
 
 [[package]]
 name = "rayon-core"
-version = "1.12.1"
+version = "1.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1465873a3dfdaa8ae7cb14b4383657caab0b3e8a0aa9ae8e04b044854c8dfce2"
+checksum = "22e18b0f0062d30d4230b2e85ff77fdfe4326feb054b9783a3460d8435c8ab91"
 dependencies = [
  "crossbeam-deque",
  "crossbeam-utils",
@@ -6151,7 +6151,7 @@ checksum = "1165225c21bff1f3bbce98f5a1f889949bc902d3575308cc7b0de30b4f6d27c7"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -6247,9 +6247,9 @@ dependencies = [
 
 [[package]]
 name = "reqwest"
-version = "0.12.22"
+version = "0.12.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cbc931937e6ca3a06e3b6c0aa7841849b160a90351d6ab467a8b9b9959767531"
+checksum = "d429f34c8092b2d42c7c93cec323bb4adeb7c67698f70839adec842ec10c7ceb"
 dependencies = [
  "async-compression",
  "base64 0.22.1",
@@ -6345,7 +6345,7 @@ checksum = "a5a11a05ee1ce44058fa3d5961d05194fdbe3ad6b40f904af764d81b86450e6b"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -6400,7 +6400,7 @@ dependencies = [
  "field",
  "inferno",
  "memmap2",
- "object 0.37.2",
+ "object 0.37.3",
  "poseidon2",
  "rand 0.9.2",
  "ringbuffer",
@@ -6908,7 +6908,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "016958f51b96861dead7c1e02290f138411d05e94fad175c8636a835dee6e51e"
 dependencies = [
  "httpdate",
- "reqwest 0.12.22",
+ "reqwest 0.12.23",
  "rustls 0.23.31",
  "sentry-core",
  "tokio",
@@ -6969,7 +6969,7 @@ checksum = "5b0276cf7f2c73365f7157c8123c21cd9a50fbbd844757af28ca1f5925fc2a00"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7078,7 +7078,7 @@ dependencies = [
  "darling 0.20.11",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7120,7 +7120,7 @@ dependencies = [
  "risc_v_cycles",
  "serde",
  "serde_json",
- "syn 2.0.104",
+ "syn 2.0.105",
  "verifier_common",
 ]
 
@@ -7239,7 +7239,7 @@ checksum = "297f631f50729c8c99b84667867963997ec0b50f32b2a7dbcab828ef0541e8bb"
 dependencies = [
  "num-bigint",
  "num-traits",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "time",
 ]
 
@@ -7420,7 +7420,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "rustversion",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7432,7 +7432,7 @@ dependencies = [
  "heck",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7449,7 +7449,7 @@ checksum = "4a7568b180699c2138a4bfaadda9a33a7419251489e58760d3b4e74d6588da3d"
 dependencies = [
  "proc-macro2",
  "rhai",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7465,9 +7465,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.104"
+version = "2.0.105"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "17b6f705963418cdb9927482fa304bc562ece2fdd4f616084c50b7023b435a40"
+checksum = "7bc3fcb250e53458e712715cf74285c1f889686520d79294a9ef3bd7aa1fc619"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -7483,7 +7483,7 @@ dependencies = [
  "paste",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7509,7 +7509,7 @@ checksum = "728a70f3dbaf5bab7f0c4b1ac8d7ae5ea60a4b5549c8a5914361c99147a709d2"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7567,7 +7567,7 @@ dependencies = [
  "proc-macro-error2",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7640,7 +7640,7 @@ dependencies = [
  "cfg-if",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7651,7 +7651,7 @@ checksum = "5c89e72a01ed4c579669add59014b9a524d609c0c88c6a585ce37485879f6ffb"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
  "test-case-core",
 ]
 
@@ -7672,11 +7672,11 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "2.0.12"
+version = "2.0.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "567b8a2dae586314f7be2a752ec7474332959c6460e02bde30d702a66d488708"
+checksum = "0b0949c3a6c842cbde3f1686d6eea5a010516deb7085f79db747562d4102f41e"
 dependencies = [
- "thiserror-impl 2.0.12",
+ "thiserror-impl 2.0.14",
 ]
 
 [[package]]
@@ -7687,18 +7687,18 @@ checksum = "4fee6c4efc90059e10f81e6d42c60a18f76588c3d74cb83a0b242a2b6c7504c1"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
 name = "thiserror-impl"
-version = "2.0.12"
+version = "2.0.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f7cf42b4507d8ea322120659672cf1b9dbb93f8f2d4ecfd6e51350ff5b17a1d"
+checksum = "cc5b44b4ab9c2fdd0e0512e6bece8388e214c0749f5862b114cc5b7a25daf227"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -7824,7 +7824,7 @@ checksum = "6e06d43f1345a3bcd39f6a56dbb7dcab2ba47e68e8ac134855e7e2bdbaf8cab8"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -8086,7 +8086,7 @@ checksum = "81383ab64e72a7a8b8e13130c49e3dab29def6d0c7d76a03087b3cf71c5c6903"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -8357,9 +8357,9 @@ checksum = "06abde3611657adf66d383f00b093d7faecc7fa57071cce2578660c9f1010821"
 
 [[package]]
 name = "uuid"
-version = "1.17.0"
+version = "1.18.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3cf4199d1e5d15ddd86a694e4d0dffa9c323ce759fea589f00fef9d81cc1931d"
+checksum = "f33196643e165781c20a5ead5582283a7dacbb87855d867fbc2df3f81eddc1be"
 dependencies = [
  "getrandom 0.3.3",
  "js-sys",
@@ -8406,7 +8406,7 @@ dependencies = [
  "quote",
  "serde",
  "serde_json",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -8437,7 +8437,7 @@ checksum = "fe466916e9bf50cc69aba41affc11970885e9dd2b9e448e20e1fb8fc726132ed"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -8511,7 +8511,7 @@ dependencies = [
  "log",
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
  "wasm-bindgen-shared",
 ]
 
@@ -8546,7 +8546,7 @@ checksum = "8ae87ea40c9f689fc23f209965b6fb8a99ad69aeeb0231408be24920604395de"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
  "wasm-bindgen-backend",
  "wasm-bindgen-shared",
 ]
@@ -8713,7 +8713,7 @@ checksum = "a47fddd13af08290e67f4acabf4b459f647552718f683a7b415d290ac744a836"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -8724,7 +8724,7 @@ checksum = "bd9211b69f8dcdfa817bfd14bf1c97c9188afa36f4750130fcdf3f400eca9fa8"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -9136,7 +9136,7 @@ checksum = "38da3c9736e16c5d3c8c597a9aaa5d1fa565d0532ae05e27c24aa62fb32c0ab6"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
  "synstructure",
 ]
 
@@ -9157,7 +9157,7 @@ checksum = "9ecf5b4cc5364572d7f4c329661bcc82724222973f2cab6f050a4e5c22f75181"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -9177,7 +9177,7 @@ checksum = "d71e5d6e06ab090c67b5e44993ec16b72dcbaabc526db883a360057678b48502"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
  "synstructure",
 ]
 
@@ -9198,7 +9198,7 @@ checksum = "ce36e65b0d2999d2aafac989fb249189a141aee1f53c612c1f37d72631959f69"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -9231,7 +9231,7 @@ checksum = "5b96237efa0c878c64bd89c436f661be4e46b2f3eff1ebb976f7ef2321d2f58f"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.104",
+ "syn 2.0.105",
 ]
 
 [[package]]
@@ -9253,7 +9253,7 @@ dependencies = [
 [[package]]
 name = "zk_evm"
 version = "0.131.0-rc.2"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-131#24837b1598ada8fe0687e22c7f17cc08a1f7fec3"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-131#8d5536c22100dde64ff7553728b651d0dd82ccff"
 dependencies = [
  "blake2_ce",
  "k256 0.11.0",
@@ -9302,7 +9302,7 @@ dependencies = [
 [[package]]
 name = "zk_evm"
 version = "0.141.0"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-141#bd5d66a85a094937c50a46630ffbb922aaf478bd"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-141#9a8d764553673b9987122c5893122dbfb640213d"
 dependencies = [
  "anyhow",
  "lazy_static",
@@ -9317,7 +9317,7 @@ dependencies = [
 [[package]]
 name = "zk_evm"
 version = "0.151.8"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-1518#6452aa42cf9dd5758fe4479874894571b6dbcf2e"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-1518#2c9b6173450a690e421be880f11f8802d26b81f4"
 dependencies = [
  "anyhow",
  "lazy_static",
@@ -9331,7 +9331,7 @@ dependencies = [
 [[package]]
 name = "zk_evm"
 version = "0.152.3"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-152#2a6aedbf48a0b137bb82a682fdbca22bce5df7ab"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-152#0a0f9f7788f5b5f151077dc9cc8687f3747fa7e4"
 dependencies = [
  "anyhow",
  "lazy_static",
@@ -9358,7 +9358,7 @@ dependencies = [
 [[package]]
 name = "zk_evm_abstractions"
 version = "0.141.0"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-141#bd5d66a85a094937c50a46630ffbb922aaf478bd"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-141#9a8d764553673b9987122c5893122dbfb640213d"
 dependencies = [
  "anyhow",
  "num_enum 0.6.1",
@@ -9370,7 +9370,7 @@ dependencies = [
 [[package]]
 name = "zk_evm_abstractions"
 version = "0.151.8"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-1518#6452aa42cf9dd5758fe4479874894571b6dbcf2e"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-1518#2c9b6173450a690e421be880f11f8802d26b81f4"
 dependencies = [
  "anyhow",
  "num_enum 0.6.1",
@@ -9382,7 +9382,7 @@ dependencies = [
 [[package]]
 name = "zk_evm_abstractions"
 version = "0.152.3"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-152#2a6aedbf48a0b137bb82a682fdbca22bce5df7ab"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-152#0a0f9f7788f5b5f151077dc9cc8687f3747fa7e4"
 dependencies = [
  "anyhow",
  "num_enum 0.6.1",
@@ -9394,7 +9394,7 @@ dependencies = [
 [[package]]
 name = "zkevm_opcode_defs"
 version = "0.131.0"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-131#24837b1598ada8fe0687e22c7f17cc08a1f7fec3"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-131#8d5536c22100dde64ff7553728b651d0dd82ccff"
 dependencies = [
  "bitflags 1.3.2",
  "ethereum-types",
@@ -9420,12 +9420,12 @@ dependencies = [
 [[package]]
 name = "zkevm_opcode_defs"
 version = "0.141.0"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-141#bd5d66a85a094937c50a46630ffbb922aaf478bd"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-141#9a8d764553673b9987122c5893122dbfb640213d"
 dependencies = [
  "bitflags 2.9.1",
  "blake2",
  "ethereum-types",
- "k256 0.13.4 (git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4)",
+ "k256 0.13.4 (git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4)",
  "lazy_static",
  "sha2",
  "sha3",
@@ -9434,14 +9434,14 @@ dependencies = [
 [[package]]
 name = "zkevm_opcode_defs"
 version = "0.151.8"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-1518#6452aa42cf9dd5758fe4479874894571b6dbcf2e"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-1518#2c9b6173450a690e421be880f11f8802d26b81f4"
 dependencies = [
  "bitflags 2.9.1",
  "blake2",
  "ethereum-types",
- "k256 0.13.4 (git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4)",
+ "k256 0.13.4 (git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4)",
  "lazy_static",
- "p256 0.13.2 (git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4)",
+ "p256 0.13.2 (git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep-0.13.4)",
  "serde",
  "sha2",
  "sha3",
@@ -9450,14 +9450,14 @@ dependencies = [
 [[package]]
 name = "zkevm_opcode_defs"
 version = "0.152.3"
-source = "git+https://github.com/matias-gonz/zksync-protocol?branch=chore%2Fupgrade-sha-deps-152#2a6aedbf48a0b137bb82a682fdbca22bce5df7ab"
+source = "git+https://github.com/Moonsong-Labs/zksync-protocol?branch=chore%2Fupgrade-sha-deps-152#0a0f9f7788f5b5f151077dc9cc8687f3747fa7e4"
 dependencies = [
  "bitflags 2.9.1",
  "blake2",
  "ethereum-types",
- "k256 0.13.4 (git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep)",
+ "k256 0.13.4 (git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep)",
  "lazy_static",
- "p256 0.13.2 (git+https://github.com/matias-gonz/elliptic-curves?branch=chore%2Fupgrade-sha2-dep)",
+ "p256 0.13.2 (git+https://github.com/Moonsong-Labs/elliptic-curves?branch=chore%2Fupgrade-sha2-dep)",
  "serde",
  "sha2",
  "sha3",
@@ -9475,7 +9475,7 @@ dependencies = [
  "maplit",
  "proc-macro2",
  "quote",
- "reqwest 0.12.22",
+ "reqwest 0.12.23",
  "rustfmt-wrapper",
  "serde",
  "serde_json",
@@ -9483,7 +9483,7 @@ dependencies = [
  "strum 0.27.2",
  "strum_macros 0.27.2",
  "tera",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "zksync-error-description",
  "zksync-error-model",
 ]
@@ -9505,13 +9505,13 @@ source = "git+https://github.com/matter-labs/zksync-error?rev=3f8c749249d29786e2
 dependencies = [
  "derive_more 2.0.1",
  "serde",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
 ]
 
 [[package]]
 name = "zksync_basic_types"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "anyhow",
  "chrono",
@@ -9525,7 +9525,7 @@ dependencies = [
  "serde_with 1.14.0",
  "sha2",
  "strum 0.26.3",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tiny-keccak 2.0.2",
  "url",
  "vise",
@@ -9557,7 +9557,7 @@ dependencies = [
 [[package]]
 name = "zksync_contracts"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "hex",
  "once_cell",
@@ -9570,7 +9570,7 @@ dependencies = [
 [[package]]
 name = "zksync_crypto_primitives"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "anyhow",
  "blake2",
@@ -9580,7 +9580,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sha2",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "zksync_basic_types",
 ]
 
@@ -9630,7 +9630,7 @@ dependencies = [
 [[package]]
 name = "zksync_mini_merkle_tree"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "once_cell",
  "zksync_basic_types",
@@ -9640,7 +9640,7 @@ dependencies = [
 [[package]]
 name = "zksync_multivm"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "anyhow",
  "circuit_sequencer_api",
@@ -9648,7 +9648,7 @@ dependencies = [
  "hex",
  "itertools 0.13.0",
  "once_cell",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tracing",
  "vise",
  "zk_evm 0.131.0-rc.2",
@@ -9704,7 +9704,7 @@ dependencies = [
 [[package]]
 name = "zksync_system_constants"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "once_cell",
  "zksync_basic_types",
@@ -9723,14 +9723,14 @@ dependencies = [
  "sentry",
  "serde",
  "serde_json",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "uuid",
 ]
 
 [[package]]
 name = "zksync_types"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -9744,7 +9744,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_with 1.14.0",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tracing",
  "zksync_basic_types",
  "zksync_contracts",
@@ -9756,7 +9756,7 @@ dependencies = [
 [[package]]
 name = "zksync_utils"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "anyhow",
  "once_cell",
@@ -9767,7 +9767,7 @@ dependencies = [
 [[package]]
 name = "zksync_vm2"
 version = "0.4.0"
-source = "git+https://github.com/matias-gonz/vm2?branch=chore%2Fupgrade-sha2-deps#7196fe6a3165b66d4b426c24a8da1a0657a1e5ce"
+source = "git+https://github.com/Moonsong-Labs/vm2?branch=chore%2Fupgrade-sha2-deps#ca99bb9dd54c24d7439064e605db72197eb5fc8f"
 dependencies = [
  "enum_dispatch",
  "primitive-types",
@@ -9779,7 +9779,7 @@ dependencies = [
 [[package]]
 name = "zksync_vm2_interface"
 version = "0.4.0"
-source = "git+https://github.com/matias-gonz/vm2?branch=chore%2Fupgrade-sha2-deps#7196fe6a3165b66d4b426c24a8da1a0657a1e5ce"
+source = "git+https://github.com/Moonsong-Labs/vm2?branch=chore%2Fupgrade-sha2-deps#ca99bb9dd54c24d7439064e605db72197eb5fc8f"
 dependencies = [
  "primitive-types",
 ]
@@ -9787,14 +9787,14 @@ dependencies = [
 [[package]]
 name = "zksync_vm_interface"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "anyhow",
  "async-trait",
  "hex",
  "pretty_assertions",
  "serde",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tracing",
  "zksync_contracts",
  "zksync_system_constants",
@@ -9804,7 +9804,7 @@ dependencies = [
 [[package]]
 name = "zksync_web3_decl"
 version = "28.7.0-non-semver-compat"
-source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#ae0c9e56ad9f2ba23989a406f769a0dfcd1d7910"
+source = "git+https://github.com/matter-labs/zksync-era.git?branch=tmp%2Fupgrade-sha2#20da6b0046e19c3919bae6fcfbae6ec4b1320a58"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -9815,7 +9815,7 @@ dependencies = [
  "rustls 0.23.31",
  "serde",
  "serde_json",
- "thiserror 2.0.12",
+ "thiserror 2.0.14",
  "tokio",
  "tracing",
  "vise",
